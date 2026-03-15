@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selfie</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #000;
+    }
+    label {
+      background: #fff;
+      color: #000;
+      padding: 16px 32px;
+      border-radius: 30px;
+      font-size: 20px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+    input { display: none; }
+  </style>
+</head>
+<body>
+  <label for="cam">📸 Tomar selfie</label>
+  <input id="cam" type="file" accept="image/*" capture="user">
+</body>
+</html>
